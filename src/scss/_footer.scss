@@ -1,0 +1,40 @@
+footer {
+  background-color: rgb(36, 36, 36);
+  color: #ffffff;
+  padding: 1rem;
+
+  .footer__title {
+    color: rgb(196, 160, 59);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2rem;
+  }
+  .footer__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .footer__content_item {
+      margin: 0.5rem;
+
+      .footer__content_item_title {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        opacity: 0.5;
+      }
+    }
+  }
+  .footer__credit {
+    font-size: 0.7gitrem;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+
+    p {
+      margin: 0;
+      opacity: 0.5;
+    }
+  }
+}
