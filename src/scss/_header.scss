@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: .4rem;
+  background-color: white;
+ }
+
+ .header__nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  
+  li:not(:first-child) {
+    padding-left: .5rem;
+  }
+ }
+
+ .header__nav___item a {
+  display: block;
+  color: white;
+  font-size: .8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-radius: .3rem;
+  background-color: crimson;
+  &:hover {
+    background-color: blue;
+  }
+ }
