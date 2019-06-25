@@ -1,0 +1,2 @@
+*{-webkit-box-sizing:border-box;box-sizing:border-box}.main{width:75vw}.main>h1{font-family:sans-serif;color:yellowgreen}.main>.container{display:grid;grid-template-columns:repeat(3, 1fr);grid-gap:1rem;margin-bottom:1rem}.main>.container>img{grid-column:1 / 3;width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.main>.container>p{padding:0 0.5rem}.meteo{border:1px solid red}
+/*# sourceMappingURL=style.css.map */
